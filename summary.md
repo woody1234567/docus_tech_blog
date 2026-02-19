@@ -21,6 +21,36 @@
 - **`/public`**: 存放靜態資源，如 Favicon 和展示圖片。
 - **`/skills`**: 專案內置的 Agent Skills，目前包含 `create-docs`，用於文件系統的自動化管理。
 
+## ✍️ 如何建立新文章
+在 Docus 系統中，建立文章非常直觀，主要分為以下步驟：
+
+1. **選擇分類目錄**:
+   - 導航至 `content/blogs/` 下的相應分類（如 `ai/`, `web_dev/` 等）。
+   - 如果需要新分類，直接建立新資料夾即可。
+
+2. **建立 Markdown 檔案**:
+   - 在該目錄下建立 `.md` 檔案（例如：`my-new-post.md`）。
+   - 檔案名稱將直接對應到 URL 路徑（例如：`/blogs/ai/my-new-post`）。
+
+3. **設定 Frontmatter**:
+   - 在檔案最上方加入 YAML 格式的設定，用於 SEO 和頁面資訊：
+     ```markdown
+     ---
+     title: 文章標題
+     description: 文章簡短描述，會顯示在搜尋結果中
+     ---
+     ```
+
+4. **撰寫內容**:
+   - 使用標準 Markdown 語法。
+   - **程式碼塊**: 使用 \` ```python \` (或其他語言) 來啟用語法高亮。
+   - **特殊組件**: 可以使用 Docus 提供的 MDC 組件，例如：
+     - `::u-alert{type="info"} 內容 ::` (顯示提示框)
+     - `::u-page-hero ... ::` (建立大圖首頁)
+
+5. **排序與導覽**:
+   - 若要控制側邊欄的顯示順序，可以在檔名前加上數字（如 `1.introduction.md`, `2.getting-started.md`）。
+
 ## 🚀 主要特色
 1. **MDC (Markdown Components)**: 大量使用 `::` 語法調用 Vue 組件，使技術文章具備極高的互動性與美觀度。
 2. **SEO 優化**: 透過 Frontmatter 直接管理每篇文章的 SEO 標題與描述。
