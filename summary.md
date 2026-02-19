@@ -33,13 +33,19 @@
    - 檔案名稱將直接對應到 URL 路徑（例如：`/blogs/ai/my-new-post`）。
 
 3. **設定 Frontmatter**:
-   - 在檔案最上方加入 YAML 格式的設定，用於 SEO 和頁面資訊：
+   - 在檔案最上方加入 YAML 格式的設定，用於 SEO、分類、標籤及日期：
      ```markdown
      ---
      title: 文章標題
      description: 文章簡短描述，會顯示在搜尋結果中
+     category: web_dev
+     date: 2026-02-05
+     tags: [seo, nuxt, llms-txt, crawler, ai]
      ---
      ```
+     - `category`: 文章的主要分類。
+     - `date`: 發布日期（建議格式 YYYY-MM-DD）。
+     - `tags`: 文章標籤列表，用方括號 `[]` 包裹。
 
 4. **撰寫內容**:
    - 使用標準 Markdown 語法。
