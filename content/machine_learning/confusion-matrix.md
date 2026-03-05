@@ -154,9 +154,9 @@ Accuracy = 99%
 
 Accuracy 代表整體預測正確的比例：
 
-\[
+$$
 Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
-\]
+$$
 
 它反映的是 **整體模型表現**，但在資料不平衡問題中通常不夠可靠。
 
@@ -166,9 +166,9 @@ Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
 
 Precision 定義為：
 
-\[
+$$
 Precision = \frac{TP}{TP + FP}
-\]
+$$
 
 這個指標的意思是：
 
@@ -184,9 +184,9 @@ Precision = \frac{TP}{TP + FP}
 
 Recall 定義為：
 
-\[
+$$
 Recall = \frac{TP}{TP + FN}
-\]
+$$
 
 Recall 描述的是：
 
@@ -202,9 +202,9 @@ Recall 描述的是：
 
 F1 Score 是 Precision 與 Recall 的調和平均：
 
-\[
+$$
 F1 = 2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}
-\]
+$$
 
 F1 Score 的目的在於同時考慮 Precision 與 Recall，並在兩者之間取得平衡。
 
