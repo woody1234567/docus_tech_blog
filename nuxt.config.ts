@@ -1,7 +1,20 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
+  css: ['katex/dist/katex.min.css'],
   content: {
+    build: {
+      markdown: {
+        remarkPlugins: {
+          'remark-math': {}
+        },
+        rehypePlugins: {
+          'rehype-katex': {
+            strict: false
+          }
+        }
+      }
+    },
     highlight: {
       // Theme used in all color schemes.
       theme: 'github-dark',
