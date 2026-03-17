@@ -2,6 +2,9 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   css: ['katex/dist/katex.min.css'],
+  nitro: {
+    preset: 'node-server'
+  },
   content: {
     build: {
       markdown: {
