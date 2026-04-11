@@ -1,0 +1,23 @@
+{
+  "skill_name": "import-blog-article",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tell me about MCP (Model Context Protocol). It's a protocol for AI to access data sources. Can you turn this into a blog post?",
+      "expected_output": "A markdown file in content/ai/ with correct frontmatter and MCP explanation.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "How to use JWT for authentication in a Node.js app? Give me some code examples and explain why it's better than sessions. Turn this into a blog post.",
+      "expected_output": "A markdown file in content/web_dev/security/ or content/web_dev/ with JWT tutorial.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "The new `uv` tool is super fast. It replaces `pip` and `venv`. Show me how to install it and create a project. Convert this note into a blog post.",
+      "expected_output": "A markdown file in content/python/ about `uv` tool.",
+      "files": []
+    }
+  ]
+}
