@@ -1,0 +1,19 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-mcp",
+  "prompt": "Tell me about MCP (Model Context Protocol). It's a protocol for AI to access data sources. Can you turn this into a blog post?",
+  "assertions": [
+    {
+      "text": "Correct frontmatter structure",
+      "expected": true
+    },
+    {
+      "text": "Category is 'ai'",
+      "expected": true
+    },
+    {
+      "text": "Includes MDC components (e.g., u-alert)",
+      "expected": true
+    }
+  ]
+}

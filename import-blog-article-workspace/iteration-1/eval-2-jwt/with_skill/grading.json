@@ -1,0 +1,7 @@
+{
+  "grading": [
+    { "text": "Correct frontmatter structure", "passed": true, "evidence": "Frontmatter present." },
+    { "text": "Category is 'web_dev'", "passed": true, "evidence": "category: web_dev" },
+    { "text": "Includes code blocks with language", "passed": true, "evidence": "Includes js and bash blocks." }
+  ]
+}
