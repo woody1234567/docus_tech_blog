@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   css: ['katex/dist/katex.min.css'],
   compatibilityDate: '2024-11-01',
   content: {
+    experimental: {
+      sqliteConnector: 'sqlite'
+    },
     build: {
       markdown: {
         highlight: {
@@ -24,6 +27,12 @@ export default defineNuxtConfig({
           }
         }
       }
+    }
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      failOnError: false
     }
   },
   assistant: {
