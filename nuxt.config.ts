@@ -2,9 +2,19 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   css: ['katex/dist/katex.min.css'],
+  compatibilityDate: '2024-11-01',
   content: {
     build: {
       markdown: {
+        highlight: {
+          // Theme used in all color schemes.
+          theme: 'github-dark',
+          // List of languages to bundle
+          langs: [
+            'python', 'ts', 'js', 'vue', 'bash', 'yaml', 'md', 'html', 'css', 
+            'sql', 'json', 'mermaid', 'diff', 'shell'
+          ]
+        },
         remarkPlugins: {
           'remark-math': {}
         },
@@ -14,12 +24,6 @@ export default defineNuxtConfig({
           }
         }
       }
-    },
-    highlight: {
-      // Theme used in all color schemes.
-      theme: 'github-dark',
-      // List of languages to bundle
-      langs: ['python', 'ts', 'js', 'vue', 'bash', 'yaml', 'md']
     }
   },
   assistant: {
