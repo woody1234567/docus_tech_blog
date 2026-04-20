@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   content: {
     experimental: {
-      sqliteConnector: 'sqlite'
+      sqliteConnector: 'native'
     },
     build: {
       markdown: {
@@ -17,14 +17,6 @@ export default defineNuxtConfig({
             'python', 'ts', 'js', 'vue', 'bash', 'yaml', 'md', 'html', 'css', 
             'sql', 'json', 'mermaid', 'diff', 'shell'
           ]
-        },
-        remarkPlugins: {
-          'remark-math': {}
-        },
-        rehypePlugins: {
-          'rehype-katex': {
-            strict: false
-          }
         }
       }
     }
