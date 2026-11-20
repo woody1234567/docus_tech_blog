@@ -1,0 +1,10 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-jwt",
+  "prompt": "How to use JWT for authentication in a Node.js app? Give me some code examples and explain why it's better than sessions. Turn this into a blog post.",
+  "assertions": [
+    { "text": "Correct frontmatter structure", "expected": true },
+    { "text": "Category is 'web_dev'", "expected": true },
+    { "text": "Includes code blocks with language", "expected": true }
+  ]
+}

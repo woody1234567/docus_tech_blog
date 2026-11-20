@@ -1,0 +1,19 @@
+{
+  "grading": [
+    {
+      "text": "Correct frontmatter structure",
+      "passed": true,
+      "evidence": "Frontmatter contains title, description, tags, category, and date."
+    },
+    {
+      "text": "Category is 'ai'",
+      "passed": true,
+      "evidence": "category field is 'ai'."
+    },
+    {
+      "text": "Includes MDC components (e.g., u-alert)",
+      "passed": true,
+      "evidence": "Includes ::u-alert{type=\"info\"} construct."
+    }
+  ]
+}

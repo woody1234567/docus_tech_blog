@@ -29,7 +29,11 @@ importers:
       katex:
         specifier: ^0.16.35
 <<<<<<< HEAD
+<<<<<<< HEAD
         version: 0.16.40
+=======
+        version: 0.16.45
+>>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2
 =======
         version: 0.16.45
 >>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2
@@ -4996,8 +5000,13 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   katex@0.16.40:
     resolution: {integrity: sha512-1DJcK/L05k1Y9Gf7wMcyuqFOL6BiY3vY0CFcAM/LPRN04NALxcl6u7lOWNsp3f/bCHWxigzQl6FbR95XJ4R84Q==}
+=======
+  katex@0.16.45:
+    resolution: {integrity: sha512-pQpZbdBu7wCTmQUh7ufPmLr0pFoObnGUoL/yhtwJDgmmQpbkg/0HSVti25Fu4rmd1oCR6NGWe9vqTWuWv3GcNA==}
+>>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2
 =======
   katex@0.16.45:
     resolution: {integrity: sha512-pQpZbdBu7wCTmQUh7ufPmLr0pFoObnGUoL/yhtwJDgmmQpbkg/0HSVti25Fu4rmd1oCR6NGWe9vqTWuWv3GcNA==}
@@ -12691,7 +12700,11 @@ snapshots:
       semver: 7.7.4
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   katex@0.16.40:
+=======
+  katex@0.16.45:
+>>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2
 =======
   katex@0.16.45:
 >>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2
@@ -13123,7 +13136,11 @@ snapshots:
       '@types/katex': 0.16.8
       devlop: 1.1.0
 <<<<<<< HEAD
+<<<<<<< HEAD
       katex: 0.16.40
+=======
+      katex: 0.16.45
+>>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2
 =======
       katex: 0.16.45
 >>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2
@@ -14499,7 +14516,11 @@ snapshots:
       hast-util-from-html-isomorphic: 2.0.0
       hast-util-to-text: 4.0.2
 <<<<<<< HEAD
+<<<<<<< HEAD
       katex: 0.16.40
+=======
+      katex: 0.16.45
+>>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2
 =======
       katex: 0.16.45
 >>>>>>> 3ce44ac4cab5e2063e7071ecafd62c915b765ff2

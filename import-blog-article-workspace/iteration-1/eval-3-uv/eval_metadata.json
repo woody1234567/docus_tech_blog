@@ -1,0 +1,10 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-uv",
+  "prompt": "The new `uv` tool is super fast. It replaces `pip` and `venv`. Show me how to install it and create a project. Convert this note into a blog post.",
+  "assertions": [
+    { "text": "Correct frontmatter structure", "expected": true },
+    { "text": "Category is 'python'", "expected": true },
+    { "text": "Includes u-alert component", "expected": true }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "grading": [
+    { "text": "Correct frontmatter structure", "passed": true, "evidence": "Frontmatter present." },
+    { "text": "Category is 'python'", "passed": true, "evidence": "category: python" },
+    { "text": "Includes u-alert component", "passed": true, "evidence": "Includes u-alert." }
+  ]
+}
