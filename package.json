@@ -4,6 +4,9 @@
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": ["better-sqlite3"]
+  },
   "dependencies": {
     "@nuxt/eslint": "^1.15.1",
     "@nuxt/fonts": "^0.14.0",
