@@ -88,4 +88,16 @@ Main Categories
   #description
   Streamlining Python development with `uv`, managing memory buffers, and writing efficient backend logic.
   :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-database
+  to: /database
+  ---
+  #title
+  Database
+
+  #description
+  PostgreSQL hosting and database branching, including how Neon Copy-on-Write branches stay isolated from production.
+  :::
 ::

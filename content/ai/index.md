@@ -4,7 +4,7 @@ category: ai
 date: 2026-02-03
 description: 探索人工智慧的最前沿技術，包括大型語言模型、模型上下文協議 (MCP) 等。
 sitemap:
-  loc: /blogs/ai
+  loc: /ai
 tags:
   - ai
   - llm
@@ -17,4 +17,4 @@ tags:
 
 ## 本區文章
 
-- [Model Context Protocol (MCP) 入門](/blogs/ai/mcp) - 了解 MCP 及其如何改變我們與 AI 的交互方式。
+- [Model Context Protocol (MCP) 入門](/ai/mcp_concept) - 了解 MCP 及其如何改變我們與 AI 的交互方式。

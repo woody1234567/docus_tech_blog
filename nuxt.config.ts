@@ -2,27 +2,29 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   css: ['katex/dist/katex.min.css'],
-  nitro: {
-    preset: 'node-server'
-  },
+  compatibilityDate: '2024-11-01',
   content: {
+    experimental: {
+      sqliteConnector: 'native'
+    },
     build: {
       markdown: {
-        remarkPlugins: {
-          'remark-math': {}
-        },
-        rehypePlugins: {
-          'rehype-katex': {
-            strict: false
-          }
+        highlight: {
+          // Theme used in all color schemes.
+          theme: 'github-dark',
+          // List of languages to bundle
+          langs: [
+            'python', 'ts', 'js', 'vue', 'bash', 'yaml', 'md', 'html', 'css', 
+            'sql', 'json', 'mermaid', 'diff', 'shell'
+          ]
         }
       }
-    },
-    highlight: {
-      // Theme used in all color schemes.
-      theme: 'github-dark',
-      // List of languages to bundle
-      langs: ['python', 'ts', 'js', 'vue', 'bash', 'yaml', 'md']
+    }
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      failOnError: false
     }
   },
   assistant: {
